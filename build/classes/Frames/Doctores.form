@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f1" green="f1" red="f1" type="rgb"/>
+    </Property>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,18,0,0,3,22"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="140" width="760" height="270"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jtbuscar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new java.awt.Color(0, 0, 0)" type="code"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="20">
+                <Column editable="true" title="ID" type="java.lang.Object">
+                  <Data value="1001-MI "/>
+                  <Data value="1002-MI"/>
+                  <Data value="2001-PE"/>
+                  <Data value="2002-PE"/>
+                  <Data value="3001-GYO"/>
+                  <Data value="3002-GYO"/>
+                  <Data value="4001-CA"/>
+                  <Data value="4002-CA"/>
+                  <Data value="5001-NEU"/>
+                  <Data value="5002-NEU"/>
+                  <Data value="6001-GAS"/>
+                  <Data value="6002-GAS "/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Nombres " type="java.lang.Object">
+                  <Data value="Carlos Garc&#xed;a"/>
+                  <Data value="Ana Torres"/>
+                  <Data value="Alejandro Mart&#xed;nez"/>
+                  <Data value="Laura Rodr&#xed;guez"/>
+                  <Data value="Andr&#xe9;s Vargas"/>
+                  <Data value="Gabriela L&#xf3;pez"/>
+                  <Data value=" David Herrera"/>
+                  <Data value="Isabel G&#xf3;mez"/>
+                  <Data value="Sergio Morales"/>
+                  <Data value="Victoria Ram&#xed;rez"/>
+                  <Data value="Javier Morales"/>
+                  <Data value="Carolina Silva"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Especialidad" type="java.lang.Object">
+                  <Data value="Medicina Interna"/>
+                  <Data value="Medicina Interna"/>
+                  <Data value="Pediatr&#xed;a"/>
+                  <Data value="Pediatr&#xed;a"/>
+                  <Data value="Ginecolog&#xed;a y Obstetricia"/>
+                  <Data value="Ginecolog&#xed;a y Obstetricia"/>
+                  <Data value="Cardiolog&#xed;a"/>
+                  <Data value="Cardiolog&#xed;a"/>
+                  <Data value="Neumolog&#xed;a"/>
+                  <Data value="Neumolog&#xed;a"/>
+                  <Data value="Gastroenterolog&#xed;a"/>
+                  <Data value="Gastroenterolog&#xed;a"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Horario M." type="java.lang.Object">
+                  <Data value="8:00 - 12:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="8:00 - 12:00 (Jueves - S&#xe1;bado)"/>
+                  <Data value="8:00 - 12:00 (Lunes - Martes)"/>
+                  <Data value="8:00 - 12:00 (Mi&#xe9;rcoles)"/>
+                  <Data value="10:00 - 13:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="8:00 - 12:00 (Jueves - S&#xe1;bado)"/>
+                  <Data value="8:00 - 12:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="8:00 - 12:00 (Jueves - S&#xe1;bado)"/>
+                  <Data value="8:00 - 12:00 (Lunes - Martes)"/>
+                  <Data value="8:00 - 12:00 (Mi&#xe9;rcoles - S&#xe1;bado)"/>
+                  <Data value="8:00 - 12:00 (Jueves - S&#xe1;bado)"/>
+                  <Data value="8:00 - 12:00 (Lunes - Martes)"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Horario T." type="java.lang.Object">
+                  <Data value="14:00 - 17:00 (Jueves - Viernes)"/>
+                  <Data value="14:00 - 17:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="14:00 - 17:00 (Mi&#xe9;rcoles)"/>
+                  <Data value="14:00 - 17:00 (Jueves - S&#xe1;bado)"/>
+                  <Data value="15:00 - 17:30 (Viernes)"/>
+                  <Data value="14:00 - 17:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="14:00 - 17:30 (Jueves - S&#xe1;bado)"/>
+                  <Data value="14:00 - 17:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="14:00 - 17:30 (Jueves - Viernes)"/>
+                  <Data value="14:00 - 17:00 (Lunes - S&#xe1;bado)"/>
+                  <Data value="14:00 - 17:00 (Lunes - Mi&#xe9;rcoles)"/>
+                  <Data value="14:00 - 17:30 (Jueves - Viernes)"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Consultorio" type="java.lang.Object">
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="Consultorio 1 "/>
+                  <Data value="Consultorio 2"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jtbuscar.getColumnModel().getColumn(0).setPreferredWidth(30); &#xa;jtbuscar.getColumnModel().getColumn(1).setPreferredWidth(60); &#xa;jtbuscar.getColumnModel().getColumn(2).setPreferredWidth(85); &#xa;jtbuscar.getColumnModel().getColumn(3).setPreferredWidth(120); &#xa;jtbuscar.getColumnModel().getColumn(4).setPreferredWidth(130); &#xa;jtbuscar.getColumnModel().getColumn(5).setPreferredWidth(50); &#xa;&#xa;&#xa;DefaultTableCellRenderer headerRenderer = new DefaultTableCellRenderer();&#xa;headerRenderer.setBackground(new Color(19, 50, 124)); // Establece el color deseado para el encabezado&#xa;headerRenderer.setForeground(Color.WHITE); // Establece el color de texto deseado para el encabezado&#xa;&#xa;for (int i = 0; i &lt; jtbuscar.getModel().getColumnCount(); i++) {&#xa;    jtbuscar.getColumnModel().getColumn(i).setHeaderRenderer(headerRenderer);&#xa;}"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="txtbuscar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="250" y="70" width="390" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JPanel" name="btnbuscar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="7c" green="32" red="13" type="rgb"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="110" y="70" width="140" height="40"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="BUSCAR"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="8" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="7c" green="32" red="13" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Doctores"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="10" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
